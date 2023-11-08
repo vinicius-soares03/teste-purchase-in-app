@@ -1,0 +1,15 @@
+io.flutter.plugins.inapppurchaseexample.app-jetified-annotation-experimental-1.1.0-0 /home/dev-flutter/.gradle/caches/transforms-3/12394798d5f1b7ff564b235fd85eeec9/transformed/jetified-annotation-experimental-1.1.0/res
+io.flutter.plugins.inapppurchaseexample.app-jetified-window-java-1.0.0-beta04-1 /home/dev-flutter/.gradle/caches/transforms-3/6966adfc5979cd69f898fa97bf0e1fcf/transformed/jetified-window-java-1.0.0-beta04/res
+io.flutter.plugins.inapppurchaseexample.app-jetified-window-1.0.0-beta04-2 /home/dev-flutter/.gradle/caches/transforms-3/990a1f5d8779a97c1832829008e8e45c/transformed/jetified-window-1.0.0-beta04/res
+io.flutter.plugins.inapppurchaseexample.app-core-1.6.0-3 /home/dev-flutter/.gradle/caches/transforms-3/dcf6ea1bd9fd008ea8eada28cf26ae9a/transformed/core-1.6.0/res
+io.flutter.plugins.inapppurchaseexample.app-debug-4 /home/dev-flutter/Documents/estudos/in_app_purchase/in_app_purchase/example/android/app/src/debug/res
+io.flutter.plugins.inapppurchaseexample.app-main-5 /home/dev-flutter/Documents/estudos/in_app_purchase/in_app_purchase/example/android/app/src/main/res
+io.flutter.plugins.inapppurchaseexample.app-pngs-6 /home/dev-flutter/Documents/estudos/in_app_purchase/in_app_purchase/example/build/app/generated/res/pngs/debug
+io.flutter.plugins.inapppurchaseexample.app-resValues-7 /home/dev-flutter/Documents/estudos/in_app_purchase/in_app_purchase/example/build/app/generated/res/resValues/debug
+io.flutter.plugins.inapppurchaseexample.app-rs-8 /home/dev-flutter/Documents/estudos/in_app_purchase/in_app_purchase/example/build/app/generated/res/rs/debug
+io.flutter.plugins.inapppurchaseexample.app-mergeDebugResources-9 /home/dev-flutter/Documents/estudos/in_app_purchase/in_app_purchase/example/build/app/intermediates/incremental/debug/mergeDebugResources/merged.dir
+io.flutter.plugins.inapppurchaseexample.app-mergeDebugResources-10 /home/dev-flutter/Documents/estudos/in_app_purchase/in_app_purchase/example/build/app/intermediates/incremental/debug/mergeDebugResources/stripped.dir
+io.flutter.plugins.inapppurchaseexample.app-merged_res-11 /home/dev-flutter/Documents/estudos/in_app_purchase/in_app_purchase/example/build/app/intermediates/merged_res/debug
+io.flutter.plugins.inapppurchaseexample.app-packaged_res-12 /home/dev-flutter/Documents/estudos/in_app_purchase/in_app_purchase/example/build/in_app_purchase_android/intermediates/packaged_res/debug
+io.flutter.plugins.inapppurchaseexample.app-packaged_res-13 /home/dev-flutter/Documents/estudos/in_app_purchase/in_app_purchase/example/build/integration_test/intermediates/packaged_res/debug
+io.flutter.plugins.inapppurchaseexample.app-packaged_res-14 /home/dev-flutter/Documents/estudos/in_app_purchase/in_app_purchase/example/build/shared_preferences_android/intermediates/packaged_res/debug

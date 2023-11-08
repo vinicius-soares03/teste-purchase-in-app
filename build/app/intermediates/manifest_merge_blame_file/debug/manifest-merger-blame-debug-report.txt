@@ -1,0 +1,140 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.ecwcertificacaodigital.ecwc.app"
+4    android:versionCode="1"
+5    android:versionName="0.0.1" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->/home/dev-flutter/Documents/estudos/in_app_purchase/in_app_purchase/example/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->/home/dev-flutter/Documents/estudos/in_app_purchase/in_app_purchase/example/android/app/src/main/AndroidManifest.xml
+10
+11    <!--
+12         The INTERNET permission is required for development. Specifically,
+13         flutter needs it to communicate with the running application
+14         to allow setting breakpoints, to provide hot reload, etc.
+15    -->
+16    <uses-permission android:name="android.permission.INTERNET" />
+16-->/home/dev-flutter/Documents/estudos/in_app_purchase/in_app_purchase/example/android/app/src/main/AndroidManifest.xml:8:5-66
+16-->/home/dev-flutter/Documents/estudos/in_app_purchase/in_app_purchase/example/android/app/src/main/AndroidManifest.xml:8:22-64
+17    <uses-permission android:name="com.android.vending.BILLING" />
+17-->[com.android.billingclient:billing:6.0.1] /home/dev-flutter/.gradle/caches/transforms-3/d3cfbb1c1f46bc5ef50d2e7faa0b5509/transformed/jetified-billing-6.0.1/AndroidManifest.xml:10:5-67
+17-->[com.android.billingclient:billing:6.0.1] /home/dev-flutter/.gradle/caches/transforms-3/d3cfbb1c1f46bc5ef50d2e7faa0b5509/transformed/jetified-billing-6.0.1/AndroidManifest.xml:10:22-64
+18
+19    <queries>
+19-->[com.android.billingclient:billing:6.0.1] /home/dev-flutter/.gradle/caches/transforms-3/d3cfbb1c1f46bc5ef50d2e7faa0b5509/transformed/jetified-billing-6.0.1/AndroidManifest.xml:12:5-16:15
+20        <intent>
+20-->[com.android.billingclient:billing:6.0.1] /home/dev-flutter/.gradle/caches/transforms-3/d3cfbb1c1f46bc5ef50d2e7faa0b5509/transformed/jetified-billing-6.0.1/AndroidManifest.xml:13:9-15:18
+21            <action android:name="com.android.vending.billing.InAppBillingService.BIND" />
+21-->[com.android.billingclient:billing:6.0.1] /home/dev-flutter/.gradle/caches/transforms-3/d3cfbb1c1f46bc5ef50d2e7faa0b5509/transformed/jetified-billing-6.0.1/AndroidManifest.xml:14:13-91
+21-->[com.android.billingclient:billing:6.0.1] /home/dev-flutter/.gradle/caches/transforms-3/d3cfbb1c1f46bc5ef50d2e7faa0b5509/transformed/jetified-billing-6.0.1/AndroidManifest.xml:14:21-88
+22        </intent>
+23    </queries> <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+24    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+25    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+25-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /home/dev-flutter/.gradle/caches/transforms-3/60e52a4668a72c8e43eee9648d25ebc0/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:24:5-79
+25-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /home/dev-flutter/.gradle/caches/transforms-3/60e52a4668a72c8e43eee9648d25ebc0/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:24:22-76
+26
+27    <application
+27-->/home/dev-flutter/Documents/estudos/in_app_purchase/in_app_purchase/example/android/app/src/main/AndroidManifest.xml:9:5-22:19
+28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+28-->[androidx.core:core:1.6.0] /home/dev-flutter/.gradle/caches/transforms-3/dcf6ea1bd9fd008ea8eada28cf26ae9a/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
+29        android:debuggable="true"
+30        android:icon="@mipmap/ic_launcher"
+30-->/home/dev-flutter/Documents/estudos/in_app_purchase/in_app_purchase/example/android/app/src/main/AndroidManifest.xml:9:58-92
+31        android:label="in_app_purchase_example" >
+31-->/home/dev-flutter/Documents/estudos/in_app_purchase/in_app_purchase/example/android/app/src/main/AndroidManifest.xml:9:18-57
+32        <activity
+32-->/home/dev-flutter/Documents/estudos/in_app_purchase/in_app_purchase/example/android/app/src/main/AndroidManifest.xml:10:9-20:20
+33            android:name="io.flutter.embedding.android.FlutterActivity"
+33-->/home/dev-flutter/Documents/estudos/in_app_purchase/in_app_purchase/example/android/app/src/main/AndroidManifest.xml:11:13-72
+34            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density"
+34-->/home/dev-flutter/Documents/estudos/in_app_purchase/in_app_purchase/example/android/app/src/main/AndroidManifest.xml:13:13-137
+35            android:hardwareAccelerated="true"
+35-->/home/dev-flutter/Documents/estudos/in_app_purchase/in_app_purchase/example/android/app/src/main/AndroidManifest.xml:14:13-47
+36            android:theme="@style/LaunchTheme"
+36-->/home/dev-flutter/Documents/estudos/in_app_purchase/in_app_purchase/example/android/app/src/main/AndroidManifest.xml:12:13-47
+37            android:windowSoftInputMode="adjustResize" >
+37-->/home/dev-flutter/Documents/estudos/in_app_purchase/in_app_purchase/example/android/app/src/main/AndroidManifest.xml:15:13-55
+38            <intent-filter>
+38-->/home/dev-flutter/Documents/estudos/in_app_purchase/in_app_purchase/example/android/app/src/main/AndroidManifest.xml:16:13-19:29
+39                <action android:name="android.intent.action.MAIN" />
+39-->/home/dev-flutter/Documents/estudos/in_app_purchase/in_app_purchase/example/android/app/src/main/AndroidManifest.xml:17:17-68
+39-->/home/dev-flutter/Documents/estudos/in_app_purchase/in_app_purchase/example/android/app/src/main/AndroidManifest.xml:17:25-66
+40
+41                <category android:name="android.intent.category.LAUNCHER" />
+41-->/home/dev-flutter/Documents/estudos/in_app_purchase/in_app_purchase/example/android/app/src/main/AndroidManifest.xml:18:17-76
+41-->/home/dev-flutter/Documents/estudos/in_app_purchase/in_app_purchase/example/android/app/src/main/AndroidManifest.xml:18:27-74
+42            </intent-filter>
+43        </activity>
+44
+45        <meta-data
+45-->/home/dev-flutter/Documents/estudos/in_app_purchase/in_app_purchase/example/android/app/src/main/AndroidManifest.xml:21:9-71
+46            android:name="flutterEmbedding"
+46-->/home/dev-flutter/Documents/estudos/in_app_purchase/in_app_purchase/example/android/app/src/main/AndroidManifest.xml:21:20-51
+47            android:value="2" />
+47-->/home/dev-flutter/Documents/estudos/in_app_purchase/in_app_purchase/example/android/app/src/main/AndroidManifest.xml:21:52-69
+48        <meta-data
+48-->[com.android.billingclient:billing:6.0.1] /home/dev-flutter/.gradle/caches/transforms-3/d3cfbb1c1f46bc5ef50d2e7faa0b5509/transformed/jetified-billing-6.0.1/AndroidManifest.xml:19:9-21:37
+49            android:name="com.google.android.play.billingclient.version"
+49-->[com.android.billingclient:billing:6.0.1] /home/dev-flutter/.gradle/caches/transforms-3/d3cfbb1c1f46bc5ef50d2e7faa0b5509/transformed/jetified-billing-6.0.1/AndroidManifest.xml:20:13-73
+50            android:value="6.0.1" />
+50-->[com.android.billingclient:billing:6.0.1] /home/dev-flutter/.gradle/caches/transforms-3/d3cfbb1c1f46bc5ef50d2e7faa0b5509/transformed/jetified-billing-6.0.1/AndroidManifest.xml:21:13-34
+51
+52        <activity
+52-->[com.android.billingclient:billing:6.0.1] /home/dev-flutter/.gradle/caches/transforms-3/d3cfbb1c1f46bc5ef50d2e7faa0b5509/transformed/jetified-billing-6.0.1/AndroidManifest.xml:23:9-27:75
+53            android:name="com.android.billingclient.api.ProxyBillingActivity"
+53-->[com.android.billingclient:billing:6.0.1] /home/dev-flutter/.gradle/caches/transforms-3/d3cfbb1c1f46bc5ef50d2e7faa0b5509/transformed/jetified-billing-6.0.1/AndroidManifest.xml:24:13-78
+54            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+54-->[com.android.billingclient:billing:6.0.1] /home/dev-flutter/.gradle/caches/transforms-3/d3cfbb1c1f46bc5ef50d2e7faa0b5509/transformed/jetified-billing-6.0.1/AndroidManifest.xml:25:13-96
+55            android:exported="false"
+55-->[com.android.billingclient:billing:6.0.1] /home/dev-flutter/.gradle/caches/transforms-3/d3cfbb1c1f46bc5ef50d2e7faa0b5509/transformed/jetified-billing-6.0.1/AndroidManifest.xml:26:13-37
+56            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+56-->[com.android.billingclient:billing:6.0.1] /home/dev-flutter/.gradle/caches/transforms-3/d3cfbb1c1f46bc5ef50d2e7faa0b5509/transformed/jetified-billing-6.0.1/AndroidManifest.xml:27:13-72
+57
+58        <uses-library
+58-->[androidx.window:window:1.0.0-beta04] /home/dev-flutter/.gradle/caches/transforms-3/990a1f5d8779a97c1832829008e8e45c/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+59            android:name="androidx.window.extensions"
+59-->[androidx.window:window:1.0.0-beta04] /home/dev-flutter/.gradle/caches/transforms-3/990a1f5d8779a97c1832829008e8e45c/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+60            android:required="false" />
+60-->[androidx.window:window:1.0.0-beta04] /home/dev-flutter/.gradle/caches/transforms-3/990a1f5d8779a97c1832829008e8e45c/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+61        <uses-library
+61-->[androidx.window:window:1.0.0-beta04] /home/dev-flutter/.gradle/caches/transforms-3/990a1f5d8779a97c1832829008e8e45c/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+62            android:name="androidx.window.sidecar"
+62-->[androidx.window:window:1.0.0-beta04] /home/dev-flutter/.gradle/caches/transforms-3/990a1f5d8779a97c1832829008e8e45c/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+63            android:required="false" />
+63-->[androidx.window:window:1.0.0-beta04] /home/dev-flutter/.gradle/caches/transforms-3/990a1f5d8779a97c1832829008e8e45c/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+64
+65        <service
+65-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /home/dev-flutter/.gradle/caches/transforms-3/60e52a4668a72c8e43eee9648d25ebc0/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:28:9-34:19
+66            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+66-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /home/dev-flutter/.gradle/caches/transforms-3/60e52a4668a72c8e43eee9648d25ebc0/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:29:13-103
+67            android:exported="false" >
+67-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /home/dev-flutter/.gradle/caches/transforms-3/60e52a4668a72c8e43eee9648d25ebc0/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:30:13-37
+68            <meta-data
+68-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /home/dev-flutter/.gradle/caches/transforms-3/60e52a4668a72c8e43eee9648d25ebc0/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:31:13-33:39
+69                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+69-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /home/dev-flutter/.gradle/caches/transforms-3/60e52a4668a72c8e43eee9648d25ebc0/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:32:17-94
+70                android:value="cct" />
+70-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /home/dev-flutter/.gradle/caches/transforms-3/60e52a4668a72c8e43eee9648d25ebc0/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:33:17-36
+71        </service>
+72        <service
+72-->[com.google.android.datatransport:transport-runtime:3.1.8] /home/dev-flutter/.gradle/caches/transforms-3/22801aa5c334b7b98d09e486b7b857c5/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:26:9-30:19
+73            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+73-->[com.google.android.datatransport:transport-runtime:3.1.8] /home/dev-flutter/.gradle/caches/transforms-3/22801aa5c334b7b98d09e486b7b857c5/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:27:13-117
+74            android:exported="false"
+74-->[com.google.android.datatransport:transport-runtime:3.1.8] /home/dev-flutter/.gradle/caches/transforms-3/22801aa5c334b7b98d09e486b7b857c5/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:28:13-37
+75            android:permission="android.permission.BIND_JOB_SERVICE" >
+75-->[com.google.android.datatransport:transport-runtime:3.1.8] /home/dev-flutter/.gradle/caches/transforms-3/22801aa5c334b7b98d09e486b7b857c5/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:29:13-69
+76        </service>
+77
+78        <receiver
+78-->[com.google.android.datatransport:transport-runtime:3.1.8] /home/dev-flutter/.gradle/caches/transforms-3/22801aa5c334b7b98d09e486b7b857c5/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:32:9-34:40
+79            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+79-->[com.google.android.datatransport:transport-runtime:3.1.8] /home/dev-flutter/.gradle/caches/transforms-3/22801aa5c334b7b98d09e486b7b857c5/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:33:13-132
+80            android:exported="false" />
+80-->[com.google.android.datatransport:transport-runtime:3.1.8] /home/dev-flutter/.gradle/caches/transforms-3/22801aa5c334b7b98d09e486b7b857c5/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:34:13-37
+81    </application>
+82
+83</manifest>
